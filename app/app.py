@@ -165,9 +165,10 @@ def salary_display(salary):
 
 def sidebar_thingy():
     with st.sidebar:
-        st.markdown('<bighead>โปรเจ็คเทอมวิชาปัญญาประดิษฐ์</bighead>', unsafe_allow_html=True)
+        st.markdown('<bighead>🤖 โปรเจ็คเทอมวิชาปัญญาประดิษฐ์</bighead>', unsafe_allow_html=True)
         st.markdown('<bighead>📜 About this project</bighead>', unsafe_allow_html=True)
         st.markdown('<text style=\'font-size:14px;\'>โปรเจคนี้เป็นส่วนหนึ่งของวิชาปัญญาประดิษฐ์ พัฒนาขึ้นเพื่อประเมินเงินเดือนของอาชีพสาย IT ตามข้อมูลตำแหน่งงานและประสบการณ์ของพนักงาน โดยใช้ Machine Learning Regression Model ที่เทรนด้วยข้อมูลจากการทำแบบสอบถามผู้ประกอบอาชีพสาย IT ผ่าน Social Media ในปีพ.ศ.2565</text>',unsafe_allow_html=True)
+        st.markdown('<bighead>🍔 Apichai Butdee 621320104</bighead>', unsafe_allow_html=True)
 
 def output_thingy(data_input, m):
     
@@ -185,7 +186,7 @@ if __name__ == '__main__':
 
     st.markdown(
         """
-        <text style="font-size: 60px;font-family:'Sarabun', sans-serif;font-weight: bold;">🔍LittleHR</text>
+        <text style="font-size: 60px;font-family:'Sarabun', sans-serif;font-weight: bold;">🔍โปรเจ็คเทอมแบบเบิ้มๆ</text>
         <text style="font-size: 30px;font-family: 'Sarabun', sans-serif;font-weight: bold;">: Thai IT Job's Salary Estimator</text><br>
         <text style="font-size: 30px;font-family: 'Sarabun', sans-serif;font-weight: bold;padding:0px 0px 0px 60px">โมเดลประเมินเงินเดือนอาชีพสาย IT ในประเทศไทย</text>
         """
