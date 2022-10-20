@@ -191,7 +191,7 @@ if __name__ == '__main__':
         """
         ,unsafe_allow_html=True)
 
-    ## sidebar_thingy()
+    sidebar_thingy()
    
     st.header(' ')
     with st.form('my_form'):
