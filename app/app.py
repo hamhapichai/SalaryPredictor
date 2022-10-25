@@ -186,8 +186,8 @@ if __name__ == '__main__':
 
     st.markdown(
         """
-        <text style="font-size: 60px;font-family:'Sarabun', sans-serif;font-weight: bold;">🔍โปรเจ็คเทอมแบบเบิ้มๆ</text>
-        <text style="font-size: 30px;font-family: 'Sarabun', sans-serif;font-weight: bold;">: Thai IT Job's Salary Estimator</text><br>
+        <text style="font-size: 60px;font-family:'Sarabun', sans-serif;font-weight: bold;">🔍โปรเจ็คเทอมแบบเบิ้มๆ</text><br>
+        <text style="font-size: 30px;font-family: 'Sarabun', sans-serif;font-weight: bold;padding:0px 0px 0px 60px">Thai IT Job's Salary Estimator</text><br>
         <text style="font-size: 30px;font-family: 'Sarabun', sans-serif;font-weight: bold;padding:0px 0px 0px 60px">โมเดลประเมินเงินเดือนอาชีพสาย IT ในประเทศไทย</text>
         """
         ,unsafe_allow_html=True)
